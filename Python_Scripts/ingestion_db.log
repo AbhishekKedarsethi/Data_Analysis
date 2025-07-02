@@ -1,0 +1,13 @@
+2025-06-19 22:21:23,732 - INFO - Ingesting Categories_Phase1.csv in DB
+2025-06-19 22:21:23,954 - INFO - Ingesting Customers_Phase1.csv in DB
+2025-06-19 22:21:24,520 - INFO - Ingesting Employees_Phase1.csv in DB
+2025-06-19 22:21:24,607 - INFO - Ingesting Payments_Phase1.csv in DB
+2025-06-19 22:21:27,081 - INFO - Ingesting Products_clean.csv in DB
+2025-06-19 22:21:29,106 - INFO - Ingesting Product_Feedback_part_1.csv in DB
+2025-06-19 22:21:29,705 - INFO - Ingesting Return_data.csv in DB
+2025-06-19 22:21:33,704 - INFO - Ingesting Sales_data.csv in DB
+2025-06-19 22:22:06,770 - INFO - Ingesting Stores_Phase1.csv in DB
+2025-06-19 22:22:06,817 - INFO - Ingesting Suppliers_Phase1.csv in DB
+2025-06-19 22:22:07,490 - INFO - Ingesting Transactions_data.csv in DB
+2025-06-19 22:22:44,961 - INFO - Ingestion Completed
+2025-06-19 22:22:44,961 - INFO - Total time taken = 1.354001021385193 minutes
