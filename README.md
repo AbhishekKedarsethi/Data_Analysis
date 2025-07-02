@@ -105,9 +105,10 @@ The dashboard:
 - Provides actionable insights (e.g., target high RFM score customers for loyalty campaigns)
 - Supports data-driven decisions with clarity and transparency
 
-Dashboard 
-
 Report
+
+Dashboard 
+https://app.powerbi.com/groups/me/reports/83463653-3da7-4c8f-9697-d19b8d203e07/8773f0ddb8aa75e548bd?experience=power-bi
 
 ## ✨ Key Highlights & Business Value
 - ✅ Automated, repeatable data pipeline from raw data to insights
