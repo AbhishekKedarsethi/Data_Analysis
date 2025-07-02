@@ -54,7 +54,7 @@ Logging was set up to:
 
 This ensures transparency and makes the process easier to audit, which is critical in enterprise environments.
 
-Python Script 
+📂 [Python Script](https://github.com/AbhishekKedarsethi/Data_Analysis/tree/main/Python_Scripts)
 
 ## 🧹 Step 3: Data Cleaning & Transformation
 Once data is loaded into PostgreSQL, I performed cleaning directly in SQL using a structured four-step approach:
@@ -69,7 +69,7 @@ To protect data integrity:
 
 This step laid a strong foundation by transforming messy raw data into analysis-ready datasets.
 
-SQL Queries
+📂 [SQL Queries](https://github.com/AbhishekKedarsethi/Data_Analysis/tree/main/SQL%20Script)
 
 ## 📈 Step 4: Exploratory Data Analysis (EDA) & Visualization
 The next step was to explore and visualize the cleaned data to identify trends, patterns, and outliers.
@@ -108,10 +108,11 @@ The dashboard:
 
 ![Alt text](https://github.com/AbhishekKedarsethi/Data_Analysis/blob/main/Dash%20Board/dashboard_pic.png)
 
-Report
+📂 [Report](https://github.com/AbhishekKedarsethi/Data_Analysis/tree/main/Report)
 
-Dashboard 
-https://app.powerbi.com/groups/me/reports/83463653-3da7-4c8f-9697-d19b8d203e07/8773f0ddb8aa75e548bd?experience=power-bi
+📂 [Dash Board](https://github.com/AbhishekKedarsethi/Data_Analysis/tree/main/Dash%20Board)
+
+[Click Here for direct BI Dashboard](https://app.powerbi.com/groups/me/reports/83463653-3da7-4c8f-9697-d19b8d203e07/8773f0ddb8aa75e548bd?experience=power-bi)
 
 ## ✨ Key Highlights & Business Value
 - ✅ Automated, repeatable data pipeline from raw data to insights
