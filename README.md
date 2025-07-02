@@ -105,7 +105,7 @@ The dashboard:
 - Provides actionable insights (e.g., target high RFM score customers for loyalty campaigns)
 - Supports data-driven decisions with clarity and transparency
 
-<img src="Dash%20Board/dashboard_pic.png" alt="pic" width="426"/>
+![Alt text](https://github.com/AbhishekKedarsethi/Data_Analysis/blob/main/Dash%20Board/dashboard_pic.png)
 
 Report
 
