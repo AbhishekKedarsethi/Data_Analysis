@@ -32,7 +32,7 @@ Example business problems explored:
 - Which RFM segment contributes the most to total revenue?
 - Which products are underperforming due to high returns or poor customer feedback?
 
-Business Problems
+📂 [Business Problems](https://github.com/AbhishekKedarsethi/Data_Analysis/tree/main/Business%20Problems)
 
 By grounding the technical process in clear business questions, the pipeline ensures every step contributes directly to solving real-world challenges.
 
