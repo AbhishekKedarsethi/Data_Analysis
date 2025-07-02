@@ -1,0 +1,201 @@
+📊Business Performance Analysis Report
+1. 🏪Store Performance Optimization
+🧩 Problem Statement:
+Management aims to compare the revenue and operational performance of each store to identify 
+underperforming locations. This will help in making data-driven decisions to optimize staffing, 
+resource allocation, and overall operations across stores.
+
+1. Which stores are top and bottom performers in terms of revenue?
+Answer:
+ Store 2 located in Lake Sonya generated the highest revenue of ₹1.12 Cr (₹1,12,67,407.10), 
+supported by a team of 9 employees, significantly outperforming other locations.
+ On the other hand, Store 40 in Mckinneyville recorded the lowest revenue at ₹12.58 Lakh 
+(₹12,58,031.83), staffed by only 1 employee.
+ This represents a 9x performance gap, suggesting disparities in either market potential, 
+operational efficiency, or staffing strategy.
+➡️Recommendation: Benchmark Store 2’s operations to identify scalable practices for 
+underperforming stores.
+
+2. Are there stores consistently underperforming across time?
+Answer:
+Yes — Store 40 has shown persistent underperformance in revenue over multiple years.
+ In 2024, it generated only ₹2.36 Lakh (₹2,36,492.56), maintaining its position at the bottom 
+of the revenue rankings.
+ This trend reflects a long-standing operational or market issue and may warrant strategic 
+reevaluation or restructuring.
+➡️Recommendation: Conduct a deeper audit of Store 40’s market, staffing, and operations.
+
+3. Is there a relationship between revenue and staffing levels?
+Answer:
+A positive correlation is observed between employee count and revenue.
+ High-performing stores such as Store 2 and Store 44 operate with 9 staff members, while 
+low-performing locations like Store 40 and Store 6 are staffed by only 1 employee.
+ This indicates that workforce capacity may be a key driver of store revenue, likely through 
+enhanced customer service, sales coverage, and operational efficiency.
+➡️Recommendation: Evaluate workforce-to-revenue ratio and consider increasing headcount in 
+stores with strong potential but low staffing.
+
+4. What is the average monthly revenue per store?
+Answer:
+Using the formula:
+📌Average Monthly Revenue = Total Revenue ÷ (Number of Months × Number of Stores)
+ Store 2 leads with an impressive ₹9.39 Lakhs/month, while Store 40 trails at only ₹1.04 
+Lakhs/month.
+ Most stores fall in the ₹3–7 Lakhs/month range, reflecting a wide performance gap across 
+the network.
+➡️Recommendation: Normalize this metric across all stores to identify those consistently over or 
+under benchmark.
+
+5. How do weekday vs. weekend sales compare across stores?
+Answer:
+ Weekday sales account for ~70% of total store revenue, while weekends contribute ~30%.
+ This pattern is consistent regardless of store size or region, indicating a stable customer 
+behavior trend favoring weekday shopping.
+➡️Recommendation: Optimize staffing and promotions for weekday peak hours and explore 
+strategies (events, offers) to boost weekend traffic.
+
+2. Product Assortment Optimization
+🧩 Problem Statement:
+Some products are consistently low-performing in terms of sales or have high return rates, while 
+others drive the majority of revenue.
+This imbalance suggests the need to optimize the product assortment by identifying top-selling and 
+underperforming products to improve profitability and reduce overhead.
+
+1. What is our current Gross Profit Margin, and how has it trended over time?
+As of the latest data, our gross profit margin is relatively low, showing signs of volatility over the 
+past four years.
+ The lowest margin was recorded in April 2024, suggesting possible issues related to pricing 
+strategy, increased cost of goods, or promotional discounts during that period.
+ The highest margin was achieved in September 2020, possibly reflecting strong sales 
+performance or lower input costs at that time.
+This trend indicates a need to stabilize gross margin through better inventory control, cost 
+negotiation, or pricing optimization strategies.
+
+2. Which products are underperforming due to high returns or poor customer feedback?
+A focused analysis of product returns and customer ratings revealed the following insights:
+ Olive Oil – Pomace recorded the highest number of returns, yet its average rating of 3.19
+suggests a moderately acceptable experience from customers.
+ The lowest-rated product was Xylitol Powder, with an average rating of 1.50, indicating 
+significant customer dissatisfaction, though its return volume was not the highest.
+ Several products showed a combination of below-average ratings (<2.5) and return volumes 
+above average, marking them as potential quality or expectation mismatch cases.
+ The return rate across products remains stable at approximately 2%, indicating consistent 
+post-purchase issues or return policies rather than product-specific failures.
+ The highest-rated products achieved a rating of 4.38, representing positive user experience, 
+but these products had limited feedback data.
+⚠️Important Limitation: Customer feedback data is only available for the year 2023, whereas the 
+sales and return data spans nearly four years. This limits our ability to correlate customer sentiment 
+with long-term product performance. For more actionable insights, we recommend expanding 
+feedback collection across all active sales years.
+
+🔍Q3: Is there a correlation between product price and return rate?
+An analysis using a scatter plot comparing product sale price and return rate reveals no significant 
+correlation between the two variables.
+ The data points are densely concentrated around lower price ranges with a wide range of 
+return rates, showing inconsistency in how pricing affects return behaviour.
+ For higher-priced products, return rates vary similarly — some are high, others low —
+without forming any clear upward or downward trend.
+ The lack of a linear or clustered pattern in the scatter distribution suggests that product 
+price does not directly influence return likelihood in the current dataset.
+➡️Conclusion: Price alone is not a strong predictor of product returns. Other factors like product 
+quality, customer expectations, or usage experience may have greater influence and warrant deeper 
+investigation.
+
+3. Customer Value Maximization
+🧩 Problem Statement:
+The business aims to increase long-term profitability by understanding which customer segments, 
+behaviours, and product categories drive the highest Customer Lifetime Value (CLTV).
+By analysing CLTV trends, loyalty program impact, and segmentation, management can prioritize 
+marketing and retention strategies to focus on the most profitable customers and offerings.
+
+1.What is the average Customer Lifetime Value (CLTV), and which product category drives the 
+highest CLTV?
+The overall average CLTV across all customers is approximately ₹56,400.
+Among product categories:
+ Beauty & Hygiene products lead with the highest average CLTV of ₹15,820, indicating 
+stronger repeat purchases and higher spending over time.
+ The second highest is Gourmet & World Food, with an average CLTV of ₹10,210.
+ At the lower end, the Eggs, Meat & Fish category records the lowest average CLTV of 
+just ₹890, reflecting lower purchase frequency or spend over the customer lifecycle.
+➡️Insight: Categories with higher average CLTV represent stronger customer loyalty and should be 
+prioritized for retention strategies and targeted promotions.
+
+2.Who are our most valuable customers based on RFM segmentation?
+Using RFM (Recency, Frequency, Monetary) analysis:
+Customers with an RFM code of “555” are identified as the most valuable segment, representing 
+241 high-value customers.
+We have further segmented all customers into five groups:
+ Champions
+ Loyal Customers
+ Big Spenders
+ At Risk
+ Others
+Visualization highlights:
+ Many bubbles cluster along the lower X-axis (indicating high recency): these 
+customers purchased very recently.
+ Larger bubbles appear on the left side, showing larger customer groups tend to buy 
+more frequently and recently.
+ As recency increases (towards the right), purchase frequency generally declines — a 
+common RFM pattern, as customers who haven’t bought recently often buy less 
+frequently.
+➡️Insight: The RFM approach effectively pinpoints high-value customers who buy frequently and 
+recently, allowing for precision marketing and loyalty initiatives.
+
+3.Which RFM segment contributes the most to total revenue?
+Analysis shows:
+ The “Champions” segment drives the highest revenue, contributing a substantial ₹237.12 
+million.
+ Conversely, the “Others” segment generates the lowest revenue at ₹0.38 million.
+➡️Insight: Focusing retention and cross-selling efforts on “Champions” and similar highperforming segments can maximize revenue impact, while reactivation campaigns could target “At 
+Risk” customers to improve overall profitability.
+4.Which RFM segment contributes the most to overall profitability, and what business strategy 
+can we recommend based on this insight?
+From the data:
+ Champions segment generates the highest profit of ₹15,27,10,833.42, which is nearly 94%
+of the total profit (₹16,26,49,984.28).
+ They also have the highest total sales volume (5,160,860) and a significantly higher number 
+of loyal points (2,311,207).
+ Despite the high return quantity (87,860), the profit impact from Champions remains 
+dominant.
+Insight & Recommendation:
+ Since Champions are the most valuable segment, retaining and rewarding them 
+should be a top priority:
+ Launch exclusive loyalty programs, personalized offers, and early access to new 
+products.
+ Monitor and reduce return rates by improving product quality or return policies.
+ This strategy will help sustain and even grow profitability by nurturing the segment 
+already delivering the most value.
+
+4. Other Insights
+Q: Who are the top-performing sales employees across all stores?
+An evaluation of employee performance based on total transactions and sales amount identified 
+the following insights:
+ Colin Contreras, a Stock Clerk in Store 16 (employee ID: 140), leads the list with 5,353 
+transactions and a total sales revenue of ₹30.21 Lakhs.
+ Robert Marshall follows closely with 5,344 transactions and sales revenue of ₹29.71 Lakhs, 
+securing the second position by transaction count.
+ In terms of total sales amount, the second highest performer after Colin Contreras is Robert 
+Fox, a Manager at Store 45, who achieved ₹29.87 Lakhs in sales revenue, despite lower 
+transaction volume.
+This analysis highlights:
+ The impact of employee roles and store contexts: even employees with fewer 
+transactions can generate high revenue if they handle higher-value products or 
+premium sales.
+ The potential value of investing in top talent and targeted training to drive revenue 
+performance across the network.
+➡️Recommendation: Leverage top-performing employees’ strategies and practices as benchmarks 
+for sales training and performance improvement programs.
+
+Q: Which payment methods are associated with higher transaction values?
+Analysis of payment data shows that:
+ Bank Transfer was the most frequently used payment method, accounting for 86,772 
+transactions and generating a total revenue of ₹5.07 Crores.
+ In contrast, UPI had the lowest transaction count with 43,004 payments, contributing ₹2.50 
+Crores in revenue.
+When comparing average payment value per transaction:
+ All payment types hover around ₹564, showing a relatively uniform average spend.
+ UPI has the highest average transaction amount at ₹565.94, while Digital Wallet has the 
+lowest at ₹562.65.
+➡️Conclusion: While bank transfers dominate by volume and total revenue, the average spend per 
+transaction remains consistent across payment methods, suggesting customer payment choice does 
+not strongly affect the size of individual purchases.
