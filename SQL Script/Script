@@ -1,0 +1,337 @@
+1. Customers Table
+
+CREATE TABLE Customers (
+
+    customer_id INT PRIMARY KEY,
+
+    first_name VARCHAR(50),
+
+    last_name VARCHAR(50),
+
+    gender CHAR(1),
+
+    birth_date DATE,
+
+    email VARCHAR(100),
+
+    phone VARCHAR(20),
+
+    city VARCHAR(50),
+
+    registration_date DATE,
+
+    loyalty_points INT
+
+);
+
+2. Products Table
+
+CREATE TABLE Products (
+
+    product_id INT PRIMARY KEY,
+
+    product_name VARCHAR(100),
+
+    category_id INT,
+
+    supplier_id INT,
+
+    price DECIMAL(10, 2),
+
+    cost_price DECIMAL(10, 2),
+
+    stock_quantity INT,
+
+    unit_of_measure VARCHAR(20),
+
+    expiry_date DATE,
+
+    barcode VARCHAR(30),
+
+    FOREIGN KEY (category_id) REFERENCES Categories(category_id),
+
+    FOREIGN KEY (supplier_id) REFERENCES Suppliers(supplier_id)
+
+);
+
+
+3. Categories Table
+
+CREATE TABLE Categories (
+
+    category_id INT PRIMARY KEY,
+
+    category_name VARCHAR(50),
+
+    department VARCHAR(50)
+
+);
+
+
+4. Suppliers Table
+
+CREATE TABLE Suppliers (
+
+    supplier_id INT PRIMARY KEY,
+
+    supplier_name VARCHAR(100),
+
+    contact_person VARCHAR(100),
+
+    phone VARCHAR(20),
+
+    address VARCHAR(150),
+
+    city VARCHAR(50)
+
+);
+
+
+5. Employees Table
+
+CREATE TABLE Employees (
+
+    employee_id INT PRIMARY KEY,
+
+    first_name VARCHAR(50),
+
+    last_name VARCHAR(50),
+
+    role VARCHAR(50),
+
+    store_id INT,
+
+    email VARCHAR(100),
+
+    FOREIGN KEY (store_id) REFERENCES Stores(store_id)
+
+);
+
+
+6. Stores Table
+
+CREATE TABLE Stores (
+
+    store_id INT PRIMARY KEY,
+
+    store_name VARCHAR(100),
+
+    address VARCHAR(150),
+
+    city VARCHAR(50),
+
+    opening_date DATE
+
+);
+
+
+7. Payments Table
+
+CREATE TABLE Payments (
+
+    payment_id INT PRIMARY KEY,
+
+    payment_type VARCHAR(50),
+
+    payment_status VARCHAR(20)
+
+);
+
+
+8. Sales Table
+
+CREATE TABLE Sales (
+
+    transaction_id INT PRIMARY KEY,
+
+    transaction_date TIMESTAMP,
+
+    customer_id INT,
+
+    employee_id INT,
+
+    store_id INT,
+
+    payment_id INT,
+
+    total_amount DECIMAL(10, 2),
+
+    discount DECIMAL(10, 2),
+
+    tax_amount DECIMAL(10, 2),
+
+    final_amount DECIMAL(10, 2),
+
+    FOREIGN KEY (customer_id) REFERENCES Customers(customer_id),
+
+    FOREIGN KEY (employee_id) REFERENCES Employees(employee_id),
+
+    FOREIGN KEY (store_id) REFERENCES Stores(store_id),
+
+    FOREIGN KEY (payment_id) REFERENCES Payments(payment_id)
+
+);
+
+
+9. Transaction Table
+
+CREATE TABLE Transaction_Details (
+
+    transaction_id INT,
+
+    product_id INT,
+
+    quantity INT,
+
+    price_per_unit DECIMAL(10, 2),
+
+    line_total DECIMAL(10, 2),
+
+    PRIMARY KEY (transaction_id, product_id),
+
+    FOREIGN KEY (transaction_id) REFERENCES Sales(transaction_id),
+
+    FOREIGN KEY (product_id) REFERENCES Products(product_id)
+
+);
+
+
+10. Returns Table
+
+CREATE TABLE Returns (
+
+    return_id INT PRIMARY KEY,
+
+    transaction_id INT,
+
+    product_id INT,
+
+    return_date TIMESTAMP,
+
+    return_quantity INT,
+
+    refund_amount DECIMAL(10, 2),
+
+    return_reason VARCHAR(100),
+
+    return_method VARCHAR(50),
+
+    handled_by_employee INT,
+
+    FOREIGN KEY (transaction_id) REFERENCES Sales(transaction_id),
+
+    FOREIGN KEY (product_id) REFERENCES Products(product_id),
+
+    FOREIGN KEY (handled_by_employee) REFERENCES Employees(employee_id)
+
+);
+
+
+11. Product Feedback Table
+
+CREATE TABLE Product_Feedback (
+
+    feedback_id INT PRIMARY KEY,
+
+    customer_id INT,
+
+    product_id INT,
+
+    rating INT CHECK (rating BETWEEN 1 AND 5),
+
+    review_comment TEXT,
+
+    feedback_date DATE,
+
+    sentiment_score DECIMAL(3, 2),
+
+    FOREIGN KEY (customer_id) REFERENCES Customers(customer_id),
+
+    FOREIGN KEY (product_id) REFERENCES Products(product_id)
+
+);
+
+
+For Cleaning Data
+
+To check duplicates we ran this query and we got nothing which means there are no duplicates
+
+SELECT customer_id, COUNT(*) as count
+
+FROM customers
+
+GROUP BY customer_id
+
+HAVING COUNT(*) > 1;
+
+
+Next we did some cleaning on phone column
+
+SELECT phone,
+
+REPLACE(phone,'.','-') AS ph_number
+
+from customers;
+
+UPDATE customers
+
+SET phone = REPLACE(phone, '.', '-');
+
+select * from customers;
+
+UPDATE customers
+
+SET phone = REPLACE(phone, '+1-', '');
+
+UPDATE customers
+
+SET phone = REPLACE(phone, ')', '-');
+
+UPDATE customers
+
+SET phone = REPLACE(phone, '(', '');
+
+SELECT
+
+  phone,
+
+  SPLIT_PART(phone, 'x', 1) AS main_number,
+
+  SPLIT_PART(phone, 'x', 2) AS phone_ext
+
+FROM customers;
+
+
+UPDATE customers
+
+SET phone = SPLIT_PART(phone, 'x', 1);
+
+SELECT
+
+  phone,
+
+  RIGHT(REGEXP_REPLACE(phone, '[^0-9]', '', 'g'), 10) AS formatted_phone
+
+FROM customers;
+
+update customers
+
+set phone = RIGHT(REGEXP_REPLACE(phone, '[^0-9]', '', 'g'), 10);
+
+with profit_table as(
+
+SELECT 
+
+  sale_price,
+
+  market_price,
+
+  (market_price - sale_price) AS profit
+
+FROM products
+
+)
+
+select sum(profit)
+
+from profit_table;
