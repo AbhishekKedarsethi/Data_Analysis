@@ -1,0 +1,26 @@
+1.	🏪Store Performance Optimization 
+🧩 Problem Statement:
+Management aims to compare the revenue and operational performance of each store to identify underperforming locations.
+This will help in making data-driven decisions to optimize staffing, resource allocation, and overall operations across stores.
+1.	Which stores are top and bottom performers in terms of revenue?
+2.	Are there stores consistently underperforming across time?
+3.	Is there a relationship between revenue and staffing levels?
+4.	What is the average monthly revenue per store?
+5.	How do weekday vs. weekend sales compare across stores?
+
+2.	Product Assortment Optimization 
+🧩 Problem Statement:
+Some products are consistently low-performing in terms of sales or have high return rates, while others drive the majority of revenue.
+This imbalance suggests the need to optimize the product assortment by identifying top-selling and underperforming products to improve profitability and reduce overhead.
+1.	What is our current Gross Profit Margin, and how has it trended over time?
+2.	Which products are underperforming due to high returns or poor customer feedback?
+3.	Is there a correlation between product price and return rate?
+
+3. Customer Value Maximization
+🧩 Problem Statement:
+The business aims to increase long-term profitability by understanding which customer segments, behaviours, and product categories drive the highest Customer Lifetime Value (CLTV).
+By analysing CLTV trends, loyalty program impact, and segmentation, management can prioritize marketing and retention strategies to focus on the most profitable customers and offerings.
+1.	What is the average Customer Lifetime Value (CLTV), and which product category drives the highest CLTV?
+2.	Who are our most valuable customers based on RFM segmentation?
+3.	Which RFM segment contributes the most to total revenue?
+4.	Which RFM segment contributes the most to overall profitability, and what business strategy can we recommend based on this insight?
