@@ -14,7 +14,8 @@ The goal was to demonstrate how raw, unstructured data can be systematically tra
 
 
 ## ✅ Step 1: Collecting Data & Understanding Business Problems
-In real-world scenarios, the analytics journey starts with collecting data from diverse sources,  
+In my company, we use Azure Data Factory (ADF) pipelines and triggers to automate the periodic retrieval of data.
+To demonstrate a similar approach in my personal project, I built a Python script that automates the daily ingestion of CSV files into a PostgreSQL database. The script leverages libraries such as pandas, sqlalchemy, os, and logging. The logging module helps monitor the ingestion process by recording key events and execution time, ensuring better visibility and debugging. I have kept the logging data in another folder so that it will be easy to understand and maintain in a structured format.
 which might include:
 - Internal databases (SQL, NoSQL)
 - Flat files and semi-structured data (Excel, CSV, JSON)
