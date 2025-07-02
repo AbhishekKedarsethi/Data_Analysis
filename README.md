@@ -80,7 +80,8 @@ Key actions:
 - Built measures and calculated columns (e.g., average order value, customer frequency) tailored to answer the business questions.
 - Designed an RFM_Table (Recency, Frequency, Monetary) to segment customers by behavior and value.
 
-ER_Diagram
+#### ER_Diagram
+![Alt text](https://github.com/AbhishekKedarsethi/Data_Analysis/blob/main/ER%20Diagram/ER_Diagram.png)
 
 Visual exploration included:
 - Trends over time (e.g., sales growth, churn rate)
