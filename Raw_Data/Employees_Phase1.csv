@@ -1,0 +1,201 @@
+employee_id,first_name,last_name,role,store_id,email
+1,Veronica,Freeman,Stock Clerk,9,nferguson@valdez-webster.com
+2,Ashley,Thomas,Stock Clerk,49,smithheather@webb.com
+3,Olivia,Martin,Manager,42,wrodriguez@edwards-guerrero.com
+4,Patricia,Dixon,Stock Clerk,33,douglas22@grant.com
+5,Michael,Hicks,Cashier,44,joneslogan@yahoo.com
+6,Deborah,Oliver,Stock Clerk,5,fullerdavid@yahoo.com
+7,Daniel,Gamble,Manager,15,carmendixon@johnson-collier.com
+8,Amy,Mendoza,Cleaner,1,jarvissara@gonzalez-hobbs.com
+9,Christian,Davis,Stock Clerk,11,acervantes@arnold.com
+10,Mary,Gordon,Manager,40,paulawilson@yahoo.com
+11,Tabitha,Jackson,Manager,35,cartergregory@yahoo.com
+12,Brian,Palmer,Stock Clerk,5,hsimpson@brown.com
+13,Jacob,Miller,Manager,19,dtrevino@tanner-rodriguez.com
+14,Matthew,Reese,Security,35,andreawright@yahoo.com
+15,John,Moore,Manager,48,larrywheeler@oneal.info
+16,Matthew,Patel,Manager,4,rweaver@gmail.com
+17,David,Shields,Stock Clerk,12,diane15@hotmail.com
+18,Emily,Huang,Cashier,49,christopherabbott@humphrey.org
+19,Catherine,Sutton,Security,5,theresa67@hotmail.com
+20,Kimberly,Owens,Cashier,7,rtorres@chapman.net
+21,Anne,Thompson,Manager,30,randy33@morrison-johnson.com
+22,Felicia,Jarvis,Cleaner,35,perezthomas@hotmail.com
+23,Jeffrey,Cruz,Manager,4,eric58@morgan.com
+24,Chelsea,Welch,Security,21,charlesgriffith@yahoo.com
+25,Victoria,Ramirez,Stock Clerk,5,wmorgan@lewis.com
+26,Jeffrey,Lewis,Security,46,tnelson@fischer-davis.net
+27,Erica,Lawson,Security,10,rachel62@hotmail.com
+28,Mike,Li,Stock Clerk,18,andrewmiller@parker.biz
+29,Courtney,Miller,Security,10,ayalajuan@gonzalez-castillo.info
+30,Charles,Smith,Cashier,47,englishcynthia@webb-cole.com
+31,Yvonne,Graham,Manager,8,qyoung@wheeler-rodriguez.biz
+32,Debra,Garcia,Stock Clerk,10,ksmith@jennings.com
+33,Morgan,Franklin,Security,10,lauralane@williams.org
+34,Sandra,Austin,Manager,12,joshua05@jones-gonzalez.com
+35,Angela,Lindsey,Cleaner,47,xanderson@peterson-jefferson.biz
+36,John,Lee,Security,5,ychandler@ellis.net
+37,Richard,Richardson,Manager,20,brittneywilkinson@webster.com
+38,Douglas,Holland,Cleaner,23,andrewcortez@patterson.biz
+39,Sean,Hall,Cashier,39,qlopez@hotmail.com
+40,Stephanie,Barry,Cashier,5,lnorris@hotmail.com
+41,Jesse,Fields,Manager,43,jthomas@gmail.com
+42,Jennifer,Manning,Cashier,37,brenda50@hotmail.com
+43,Nicholas,Snyder,Cashier,11,kimberlyschwartz@burnett-hays.org
+44,Robert,Marshall,Cleaner,4,sandersdavid@gmail.com
+45,Derek,Coffey,Cashier,23,amandamorris@gmail.com
+46,Karen,Trevino,Stock Clerk,2,pwelch@gmail.com
+47,Kendra,Morales,Manager,7,jgriffin@yahoo.com
+48,Linda,Deleon,Security,34,sarah30@brooks-allen.com
+49,Karen,Williams,Cashier,39,chambersrussell@carter-levine.com
+50,Darrell,Johnson,Stock Clerk,35,vcarpenter@hotmail.com
+51,Matthew,Watson,Stock Clerk,33,shannonmiguel@gmail.com
+52,Laura,Beck,Security,14,jenniferraymond@hotmail.com
+53,Kathryn,Harrison,Stock Clerk,42,brownemily@hotmail.com
+54,Nathan,Wilcox,Stock Clerk,50,deborahmaldonado@harvey-lopez.info
+55,Maria,Kelley,Manager,36,michael95@malone.com
+56,Amy,Clark,Cleaner,44,savannah60@gmail.com
+57,Mark,Davis,Stock Clerk,13,oliviasullivan@miranda.net
+58,Richard,Garcia,Manager,26,rothandrew@yahoo.com
+59,Luis,Smith,Cashier,2,georgeturner@sutton.com
+60,Nathaniel,Walter,Security,50,brettsaunders@hotmail.com
+61,Ryan,Johnson,Stock Clerk,29,georgechang@smith-estes.biz
+62,Justin,Adams,Cleaner,29,navarroamanda@thornton.com
+63,Jessica,Roberts,Stock Clerk,17,ajohnson@johnson.info
+64,Amanda,King,Manager,8,heathersmith@yahoo.com
+65,Tyler,Jones,Security,21,callen@jackson-hall.com
+66,Craig,Rodriguez,Cashier,46,jason07@collins.com
+67,Audrey,Miller,Cashier,21,copelandjessica@church.com
+68,Steven,Reese,Security,2,jthomas@lopez-reed.com
+69,Patrick,Buchanan,Cleaner,28,kleinmeghan@jenkins.net
+70,Kristine,Shepard,Security,13,myerstravis@moore.com
+71,Tracy,Cruz,Manager,25,aaronzuniga@gaines-baker.com
+72,Daniel,Johnson,Security,46,henrydeborah@hotmail.com
+73,Raymond,Barnett,Cashier,10,joe84@hotmail.com
+74,Rodney,Williams,Security,42,aowens@ruiz.com
+75,Blake,Oconnell,Manager,18,robin64@cameron.info
+76,Stephen,Carney,Security,48,ehampton@yahoo.com
+77,James,Thompson,Security,32,andersonmelissa@yahoo.com
+78,Erin,Stevenson,Cleaner,47,waynemays@floyd-johnson.biz
+79,Mary,Wilson,Stock Clerk,47,dfox@yahoo.com
+80,Catherine,Carr,Cashier,7,charlenemyers@hotmail.com
+81,Monica,Rivera,Manager,26,scottrobert@hawkins.net
+82,David,Brown,Cashier,25,igrant@foster.com
+83,Anthony,Graham,Security,21,jeffreyhansen@yahoo.com
+84,Todd,Burch,Cashier,39,hendricksamy@gmail.com
+85,Philip,Carpenter,Stock Clerk,36,lprice@chan.com
+86,Elizabeth,Leonard,Manager,22,roy05@diaz-ibarra.com
+87,Emma,Gilbert,Cashier,28,alexanderbarnett@hotmail.com
+88,Meghan,Jackson,Security,37,pamgarcia@gmail.com
+89,Eric,Rosales,Manager,29,courtneymiller@yahoo.com
+90,Hannah,Smith,Security,8,plopez@bruce.com
+91,Sheena,Best,Cashier,41,stevethompson@yahoo.com
+92,Robert,Bell,Cashier,8,pennyphillips@black.com
+93,Angela,Gray,Security,25,leeshannon@hotmail.com
+94,Tara,Daniels,Manager,9,jeffrey32@gmail.com
+95,Sara,Barnes,Stock Clerk,2,shannonmoss@gmail.com
+96,Robert,Marshall,Cashier,14,cmurray@hotmail.com
+97,Keith,Clark,Cashier,2,christian24@reese.com
+98,John,Jackson,Cleaner,44,jimenezchristopher@gmail.com
+99,Cory,Bryant,Stock Clerk,42,sara53@yahoo.com
+100,Adam,Henson,Cashier,47,lauramueller@brown.com
+101,Ashley,Lopez,Cashier,11,patricia22@hotmail.com
+102,Crystal,Anderson,Security,21,donna94@gmail.com
+103,Emily,Brooks,Stock Clerk,14,shannonallen@yahoo.com
+104,Jeffrey,Harper,Stock Clerk,32,keithbell@cooper-alvarez.org
+105,Adam,Moreno,Security,12,christian64@hotmail.com
+106,Lisa,Simmons,Cleaner,9,sarah16@terry.com
+107,Elizabeth,Stephens,Manager,3,daniel13@carroll.com
+108,Amanda,Zimmerman,Stock Clerk,1,jessicawilliamson@khan-elliott.com
+109,Virginia,Riggs,Stock Clerk,11,johnsonstanley@silva.com
+110,Christopher,Sanchez,Manager,37,mmartinez@yahoo.com
+111,Tammy,Flores,Cleaner,44,martinezgregory@moore-jackson.com
+112,Michael,Perez,Manager,22,scott28@stephenson.com
+113,Michael,Jenkins,Stock Clerk,45,wcaldwell@simpson.com
+114,Susan,Hall,Cleaner,20,psullivan@mann-gallagher.org
+115,Paul,Acevedo,Manager,4,brandon76@bradley.com
+116,Connie,Brown,Manager,21,aprice@hernandez-peterson.com
+117,Kimberly,Franklin,Security,39,mcguirejoseph@yahoo.com
+118,Stephen,Bell,Manager,32,andersonrebecca@brooks.com
+119,Lauren,Walker,Manager,50,murraylaura@hotmail.com
+120,Jane,Buchanan,Security,33,kyle54@payne.com
+121,Edward,Rice,Stock Clerk,27,fmassey@hotmail.com
+122,Lori,Cannon,Cashier,17,baileylaura@hunt-diaz.info
+123,Lisa,Bryant,Stock Clerk,34,jennifersanders@martin.com
+124,Tamara,King,Cleaner,27,wattsdeborah@davis.info
+125,Sierra,Johnson,Stock Clerk,9,gwright@phillips.com
+126,David,Pope,Cashier,16,nicoledelgado@ingram-nash.com
+127,Alyssa,Smith,Security,23,cardenaslaura@martinez-frazier.com
+128,Christopher,Norris,Stock Clerk,31,jennifer61@watson.info
+129,Lindsey,George,Security,32,crobertson@heath-thompson.biz
+130,Valerie,Smith,Security,2,ihayes@gmail.com
+131,Vanessa,Smith,Cleaner,9,sotomegan@yahoo.com
+132,Roger,Taylor,Stock Clerk,27,kayla04@yahoo.com
+133,Alexandra,Quinn,Manager,32,bernarderic@johnson.org
+134,Steve,Schwartz,Stock Clerk,31,jenna48@horton-flores.com
+135,Eric,Smith,Cleaner,39,matthewknight@hotmail.com
+136,Anthony,Gillespie,Security,38,jimmyjohnson@horne.com
+137,Ashley,Salinas,Cleaner,2,charles20@gmail.com
+138,George,Carter,Stock Clerk,29,alexanderevans@yahoo.com
+139,Erica,Espinoza,Security,30,leah14@marshall-diaz.net
+140,Colin,Contreras,Stock Clerk,16,destinyellison@jackson-cline.info
+141,Bianca,Martinez,Cleaner,26,lucasdaniel@gates.com
+142,Ashley,Sexton,Cleaner,19,cohenmatthew@walker-jackson.com
+143,Candace,Sanchez,Manager,36,johnfarley@hotmail.com
+144,Richard,Johnson,Stock Clerk,37,nicolemiller@ramsey.com
+145,Manuel,Morgan,Security,36,randall27@werner-hutchinson.com
+146,Dominic,Jones,Stock Clerk,31,asnyder@byrd.com
+147,Donald,Garcia,Manager,18,kavery@freeman-hernandez.com
+148,Lisa,Smith,Stock Clerk,32,thomas74@long.com
+149,Jesse,Benson,Manager,46,martinezzachary@dillon.com
+150,Anne,Austin,Stock Clerk,26,williamsrodney@hammond.com
+151,Desiree,Acosta,Cashier,50,rachel89@stone.biz
+152,Scott,Walker,Security,48,hking@parks.com
+153,Stefanie,Klein,Stock Clerk,25,maryholmes@gmail.com
+154,William,Pratt,Security,37,llee@gmail.com
+155,Linda,Zamora,Stock Clerk,17,zmccoy@hotmail.com
+156,Donna,Mcdowell,Stock Clerk,41,burnettsamuel@brown.info
+157,Joseph,Nelson,Manager,30,julieharris@shelton.com
+158,Tara,Carroll,Cashier,44,robertsalexandra@ramirez.com
+159,Dustin,Evans,Cleaner,33,victoria05@thompson.com
+160,Patrick,Cline,Manager,39,matthew27@marshall.com
+161,Paul,Simmons,Stock Clerk,23,carrsherri@martin-kennedy.com
+162,Tabitha,Collins,Stock Clerk,30,dshort@hotmail.com
+163,Crystal,Ford,Manager,42,ggomez@everett.com
+164,Kathryn,Shannon,Security,46,wsmith@yahoo.com
+165,Julie,Ray,Security,25,martinezrandall@torres-adams.com
+166,Todd,Robinson,Manager,43,bennettjennifer@arnold-randall.com
+167,Calvin,Lynch,Security,38,janet52@gmail.com
+168,Tyler,Keller,Manager,48,travis74@gmail.com
+169,Patrick,Roberts,Security,6,joshuaellis@baldwin.com
+170,Cathy,Conley,Cleaner,49,snoble@gmail.com
+171,Lydia,Osborn,Manager,50,matthewpearson@hotmail.com
+172,Christina,Davis,Cleaner,3,walkerjennifer@robinson.info
+173,Henry,Chambers,Cleaner,17,dleblanc@schultz.org
+174,Jonathan,Martinez,Cleaner,5,brittanywilson@floyd.com
+175,Caleb,Winters,Cashier,2,grant67@jones-sanders.net
+176,Willie,Sanchez,Cleaner,34,hernandezchristine@bird.info
+177,Robert,Salas,Cleaner,41,baileyselena@hotmail.com
+178,Sharon,Smith,Manager,49,angela58@bass-ward.org
+179,Lori,Johnson,Stock Clerk,4,ronald62@yahoo.com
+180,James,Evans,Stock Clerk,45,ygonzalez@dunn.biz
+181,Donna,Smith,Stock Clerk,44,wwood@gmail.com
+182,Alexandra,Stone,Manager,42,jennifer58@gmail.com
+183,Keith,Fisher,Security,14,chenjennifer@gmail.com
+184,Matthew,Caldwell,Cashier,16,denisepatel@hotmail.com
+185,Shannon,Miranda,Security,44,ccarney@hotmail.com
+186,Elizabeth,Moss,Manager,50,briannahansen@yahoo.com
+187,Autumn,Frazier,Stock Clerk,1,rmendoza@yahoo.com
+188,Harry,Martinez,Stock Clerk,23,dharris@wilson-carpenter.com
+189,Jessica,Torres,Cleaner,41,laceysmith@davis.com
+190,Robert,Fox,Manager,45,erinmurray@gmail.com
+191,Janet,Snyder,Cashier,29,amysmith@yahoo.com
+192,Brandon,Thompson,Stock Clerk,44,boyerterri@jenkins-davis.com
+193,Travis,Hayes,Cleaner,44,mperez@hotmail.com
+194,Kevin,Gutierrez,Cashier,14,ginafritz@hotmail.com
+195,Rachel,Summers,Stock Clerk,43,laurareed@williams-cox.net
+196,Jim,Reyes,Security,25,carlos00@ross.com
+197,Victoria,Johnson,Cashier,18,drew69@campbell.com
+198,Christian,Brown,Manager,2,nbell@gmail.com
+199,Lisa,Howell,Cashier,15,jerry07@anderson.net
+200,Thomas,Morris,Security,43,davidcox@ward.net
